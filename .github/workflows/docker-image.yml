@@ -5,7 +5,7 @@ on:
     inputs:
       branch:
         description: 'Tag for image'
-        default: 'dev'
+        default: 'latest'
         required: true
       image:
         description: 'Image to build'
