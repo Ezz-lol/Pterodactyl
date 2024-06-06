@@ -33,4 +33,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/stefanuk12/${{ github.event.inputs.image }}:${{ github.event.inputs.branch }}
+            ghcr.io/ezz-lol/${{ github.event.inputs.image }}:${{ github.event.inputs.branch }}
